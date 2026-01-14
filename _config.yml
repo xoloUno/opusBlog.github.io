@@ -1,0 +1,23 @@
+# Site settings
+title: xoloUno
+description: A personal blog
+author: xoloUno
+url: "https://xolouno.github.io"
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# Show full posts on homepage (not excerpts)
+show_excerpts: false
+
+# Pagination (optional, disabled by default)
+# paginate: 10
+# paginate_path: "/page/:num/"
+
+# Exclude from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
